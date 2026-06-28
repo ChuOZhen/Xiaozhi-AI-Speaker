@@ -1,0 +1,45 @@
+# ESP-IDF build output
+build/
+
+# SDK config — contains local WiFi credentials
+sdkconfig
+sdkconfig.old
+sdkconfig.old.backup
+sdkconfig.backup
+
+# Claude local settings — may contain API keys
+.claude/
+
+# Backup files
+*.bak
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Environment / secrets
+.env
+.env.*
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies
+managed_components/
+components/
+
+# Audio recordings
+*.wav
+recordings/
